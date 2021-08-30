@@ -4,7 +4,7 @@ If you want to use the webtoon data, run 'get_actual_toon_data.py'
 It needs to download driver.exe.
 If you use the chrome, you might use chromedriver.exe.
 In this here, you can download chromedriver with your same chrome version.
-'''python
+''' python
 pip install selenium
 pip install opencv-python
 pip install natsort
@@ -18,11 +18,11 @@ ex) 1화~100화 추출한다면 start는 100화, end는 1화
 - 229번째 코드: default = 100
 ### Image size: 
 아래와 같은 181번째 줄 코드에서 512가 이미지의 가로, 세로 크기(정사각형)
-'''python
+''' python
 scale = cv2.resize(dst,(512,512),interpolation=cv2.INTER_LINEAR)
 '''
 ## Run
-'''python
+''' python
 python get_actual_toon_data.py
 '''
 ## Output Directory
