@@ -10,6 +10,12 @@ In this here, you can download chromedriver with your same chrome version.
     pip install natsort
 
 ## Customization
+### Chrome Driver:
+아래와 같은 19번째 줄 코드에서 설치된 크롬드라이버의 경로를 넣어준다. 
+
+    driver = webdriver.Chrome(r"c:\Users박정은\chromedriver.exe")
+    
+해당 부분에서 오류가 날 경우 https://emessell.tistory.com/148 를 참고하거나 크롬 드라이버를 get_actual_toon_data.py 파일과 같은 디렉토리에 위치하도록 하여 해결한다.
 ### Episode: 
 225번째, 227번째, 229번째 코드의 default값 수정
 ex) 1화~100화 추출한다면 start는 100화, end는 1화
